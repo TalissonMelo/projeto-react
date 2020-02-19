@@ -1,0 +1,10 @@
+header.header{
+    padding: 0px, 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 140px;
+}
+
+header.header h1{
+    font-size: 1.5em;
+}
