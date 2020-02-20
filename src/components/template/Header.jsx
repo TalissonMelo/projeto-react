@@ -8,4 +8,5 @@ export default props =>
                         <i className={`fa fa-${props.icon}`}></i> {props.title}
                 </h1>
                 <p className="lead text-muted">{props.subtitle}</p>
+                <p className="lead text-muted">{props.title}</p>
         </header>
