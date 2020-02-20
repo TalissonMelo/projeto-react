@@ -3,7 +3,7 @@
 
     --logo-height: 100px;
     --header-height: 100px;
-    --aside-width: 335px;
+    --aside-width: 305px;
     --footer-height: 20px;
 }
 
@@ -26,8 +26,6 @@
     "logo header"
     "menu content"
     "menu footer";
-
-    height:  100vh;
     background-color:white;
 }
 

@@ -1,0 +1,15 @@
+aside.menu-area{
+    background-color: black;
+}
+
+.menu-area a {
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    font-weight:300;
+    text-align: center;
+}
+
+.menu-area a:houver {
+    background: yellow;
+}
