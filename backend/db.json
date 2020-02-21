@@ -1,3 +1,9 @@
 {
-  "personagem": []
+  "personagem": [
+    {
+      "nome": "Goku",
+      "descricao": "Principe dos Sayjins",
+      "id": 1
+    }
+  ]
 }

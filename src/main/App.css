@@ -4,7 +4,7 @@
     --logo-height: 100px;
     --header-height: 100px;
     --aside-width: 305px;
-    --footer-height: 20px;
+    --menu-top-height: 100px;
 }
 
 *{
@@ -19,13 +19,11 @@
     display: grid;
     grid-template-columns: var(--aside-width) 1fr;
     grid-template-rows: 
-    var(--header--height) 1fr
-    var(--footer--height);
+    var(--header--height) 1fr;
 
     grid-template-areas: 
     "logo header"
-    "menu content"
-    "menu footer";
+    "menu content";
     background-color:white;
 }
 
@@ -41,6 +39,26 @@ main.content{
     grid-area: content;
 }
 
-footer.footer{
-    grid-area: var(--footer-height);
+
+@media(max-width: 768px){
+    .app{
+        grid-template-rows: 
+        var(--header-height)
+        var(--menu-top-height)
+        1fr;
+
+        grid-template-columns: var(--aside-width) 1fr ;
+        grid-template-areas: 
+        "logo header"
+        "menu menu"
+        "content content";
+
+    }
+}
+
+@media(max-width: 500px){
+    aside.photo img{
+        width: 450px;
+    height: 300px;
+    }
 }
