@@ -1,0 +1,13 @@
+{
+    "personagem": [{
+        "id": 1,
+        "nome" : "Goku",
+        "descricao" : "Personagem principal do anime"
+       
+    },
+    {
+        "id": 2,
+        "nome" : "Vegeta",
+        "descricao" : "Principe dos sayajins"
+    }] 
+}
