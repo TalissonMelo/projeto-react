@@ -1,13 +1,18 @@
 {
-    "personagem": [{
-        "id": 1,
-        "nome" : "Goku",
-        "descricao" : "Personagem principal do anime"
-       
+  "personagem": [
+    {
+      "id": 1,
+      "nome": "Goku",
+      "descricao": "Personagem principal do anime"
     },
     {
-        "id": 2,
-        "nome" : "Vegeta",
-        "descricao" : "Principe dos sayajins"
-    }] 
+      "id": 2,
+      "nome": "Vegeta",
+      "descricao": "Principe dos sayajins"
+    },
+    {
+      "undefined": "O Garoto nerd do Anime",
+      "id": 3
+    }
+  ]
 }

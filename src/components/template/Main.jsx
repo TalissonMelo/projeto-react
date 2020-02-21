@@ -11,6 +11,5 @@ export default props =>
                 {props.children}
 
             </div>
-                Conteúdo
         </main>
     </React.Fragment>
